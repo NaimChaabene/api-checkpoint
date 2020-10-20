@@ -1,5 +1,8 @@
-.App {
+.container1{
+  display: flex;
+flex-wrap: wrap;
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card{
+  margin: 20px;
+  padding : 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color: red;
+  width: 300px;
 }
